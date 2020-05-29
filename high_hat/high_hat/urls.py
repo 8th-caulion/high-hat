@@ -10,4 +10,5 @@ urlpatterns = [
     path('sample/', challenge.views.sample, name="sample"),
     path('login/', challenge.views.login, name="login"),
     path('signup/', challenge.views.signup, name="signup"),
+    path('dashboard/', challenge.views.dashboard, name="dashboard"),
 ]
